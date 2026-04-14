@@ -1,0 +1,31 @@
+name: GitHub Metrics
+on:
+  # Se actualiza automáticamente cada noche
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite forzar la actualización manualmente desde la pestaña "Actions"
+  workflow_dispatch:
+  # Se actualiza cuando haces cambios en el README
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Usa el token seguro por defecto (no tienes que configurar nada extra)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Configuración visual
+          template: classic
+          base: ""
+          config_theme: dark
+          
+          # Plugin 1: Líneas de Código (El contador que querías)
+          plugin_lines: yes
+          
+          # Plugin 2: Lenguajes más usados
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
