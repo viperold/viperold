@@ -48,10 +48,11 @@ My goal is to be the bridge between complex ideas and functional digital product
 
 <div align="center">
 
-  <img src="github-metrics.svg" alt="Líneas de código y Lenguajes" width="60%">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=viperold&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="50%">
   
-  <br><br>
-
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=viperold&show_icons=true&title_color=eefc07&icon_color=00e5ff&text_color=ffffff&bg_color=0d1117&hide_border=true" alt="GitHub Stats" width="48%">&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=viperold&theme=dark&hide_border=true&fire=ff9800&ring=ff9800" alt="GitHub Streak" width="48%">
+  <br><br> 
+  <div align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=viperold&show_icons=true&title_color=eefc07&icon_color=00e5ff&text_color=ffffff&bg_color=0d1117&hide_border=true" alt="Viperold's GitHub Stats" width="48%">&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=viperold&theme=dark&hide_border=true&fire=ff9800&ring=ff9800" alt="GitHub Streak" width="48%">
+</div>
 
 </div>
