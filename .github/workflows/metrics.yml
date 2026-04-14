@@ -13,12 +13,20 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           
-          # ¡Aquí está la magia! Cambiamos a la plantilla terminal
-          template: terminal
-          base: "" 
+          # CONFIGURACIÓN BÁSICA (classic es la correcta, con tema dark)
+          template: classic
+          base: header, metadata # Requerido para ver "LINES OF CODE" y "FILES"
+          config_theme: dark
+          config_timezone: America/Santiago # Tu zona horaria
+
+          # COLORES PARA REPLICAR TU IMAGEN (borde rojo, títulos rojos, valores cyan)
+          # Esto ajusta la paleta exacto al ejemplo
+          config_colors: '{"title":"#FF0000","text":"#00FFFF","icon":"#FF0000","border":"#FF0000","field_name":"#00FFFF","label":"#00FFFF"}'
           
-          # Plugins (Tus líneas de código y lenguajes)
+          # PLUGIN 1: Líneas de Código
           plugin_lines: yes
+          
+          # PLUGIN 2: Lenguajes más usados
           plugin_languages: yes
-          plugin_languages_details: percentage
+          plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
