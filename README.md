@@ -41,12 +41,18 @@ My goal is to be the bridge between complex ideas and functional digital product
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-### 🔥 Streak Stats
+<br>
 
-<p align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=viperold&theme=tokyonight" alt="Viperold's GitHub stats" />
+### 📊 GitHub Stats
 
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=viperold&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10" alt="Top Languages" />
+<div align="center">
 
-</p>
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=viperold&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="45%">
+  
+  <br><br> 
+  <div align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=viperold&show_icons=true&title_color=eefc07&icon_color=00e5ff&text_color=ffffff&bg_color=0d1117&hide_border=true" alt="Viperold's GitHub Stats" width="48%">&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=viperold&theme=dark&hide_border=true&fire=ff9800&ring=ff9800" alt="GitHub Streak" width="48%">
+</div>
+
+</div>
